@@ -4,4 +4,14 @@ def talk
   puts "Hello World!"
 end 
 
-Ada
+ada = Person.new 
+ada.talk
+
+Class Person
+
+def walk
+  puts "The Person is walking"
+end
+
+ada = Person.new
+ada.walk 
