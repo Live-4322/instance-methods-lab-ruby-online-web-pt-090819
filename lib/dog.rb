@@ -17,5 +17,6 @@ def sit
  end
 end
 
-  
+ snoopy = Dog.new 
+ snoopy.sit 
   
